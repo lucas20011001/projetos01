@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="img/logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="search" arial-label="search">
+            <button type="submit" class="search-btn"><img src="img/magnify.svg"></button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="img/video-plus.svg" alt="Upload Video">
+            </a>
+            <a href="#">
+                <img src="img/apps.svg" alt="Apps">
+            </a>
+            <a href="#">
+                <img src="img/bell.svg" alt="Notification">
+            </a>
+
+            <a href="#">
+                <img class="menu-channel-icon" src="img/foto-eu.jpg" alt="Your Channel">
+            </a>
+        </div><!--Menu icons-->
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category-active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentário</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <Button class="category">Outros</Button>
+        </section><!--category section-->
+    </div><!--categories-->
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:05">
+                    <img class="thumbnail-image" src="https://portalaltadefinicao.com/wp-content/uploads/2019/05/LISTA-NEGRA-1.jpg">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://media.fstatic.com/wtJnxFSnyHXfd0e9Zj6NLkfsFp0=/fit-in/290x478/smart/media/movies/covers/2017/09/The-Blacklist-s51.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">10 fatos sobre Lista negra</a>
+                        <a class="video-channel-name" href="#">Lucas nascimento</a>
+                        <div class="video-metadata">
+                            <span>1.5 M views</span>
+                            •
+                            <span>7 weeks ago</span>
+                        </div><!--video metadata-->
+                    </div><!--video details-->
+                </div><!--video bottom section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:24">
+                    <img class="thumbnail-image" src="https://spinoff.com.br/wp-content/uploads/de-volta-para-o-futuro_b86e0148-1024x652.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://www.estrelando.com.br/uploads/2020/03/06/de-volta-para-o-futuro-tt-1583510884.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">10 fatos sobre De volta para o futuro</a>
+                        <a href="#" class="video-channel-name">Lucas nascimento</a>
+                        <div class="video-metadata">
+                            <span>3.8 M views</span>
+                            •
+                            <span>11 weeks ago</span>
+                        </div><!--video metadata-->
+                    </div><!--video details-->
+                </div><!--video bottom section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://www.jornalnopalco.com.br/wp-content/uploads/2018/11/Breaking-Bad.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="http://wallup.net/wp-content/uploads/2016/01/6515-Walter_White-Breaking_Bad-TV.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">10 fatos sobre Breaking-Bad</a>
+                        <a href="#" class="video-channel-name">Lucas nascimento</a>
+
+                        <div class="video-metadata">
+                            <span>2.5 M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video metadata-->
+                    </div><!--video details-->
+                </div><!--video bottom section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="9:50">
+                    <img class="thumbnail-image" src="https://images.alphacoders.com/485/485315.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://th.bing.com/th/id/R.49d86ab6837d8488bfabd0fbd32ddd94?rik=WX%2bR8gOPe9Uekg&riu=http%3a%2f%2fassets.cdn.moviepilot.de%2ffiles%2f37ae7dacf841994a3ba21eb33ce8ab72f81d8ed1f126c61d3af9789dd803%2ffill%2f104%2f148%2fHow_I_met_ypur_mother.jpg&ehk=DARJbfL3WKe2euocFk4foKtwpU8FrLJcH7QED%2btEo9E%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">10 fatos sobre HIMYM</a>
+                        <a href="#" class="video-channel-name">Lucas nascimento</a>
+
+                        <div class="video-metadata">
+                            <span>1.2 M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video metadata-->
+                    </div><!--video details-->
+                </div><!--video bottom section-->
+            </article>
+        </section><!--video section-->
+    </div><!--videos-->
+    
+</body>
+</html>
