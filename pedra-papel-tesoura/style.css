@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+header{
+    background-color: #ccc;
+    height: 160px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.scores{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: justify;
+    width: 320px;
+}
+
+header h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.vencedor{
+    width: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+header h2{
+    width: 200px;
+}
+
+.player-options img, .inimigo-options img{
+    width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options, .inimigo-options{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.player-options, .inimigo-options h3{
+    color: white;
+    font-size: 17px;
+}
+
+.align{
+    text-align: center;
+    display: flex;
+}
+
+@media  screen and (max-width: 412px) {
+    header{
+        height: 200px;
+    }
+}
