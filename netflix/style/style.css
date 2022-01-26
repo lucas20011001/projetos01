@@ -1,0 +1,120 @@
+:root{
+    --vermelho:#E50914;
+    --preto:black;
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: var(--preto);
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    padding-left: 2%;
+}
+
+header .container{
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 120px;
+    cursor: pointer;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/post-bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    padding: 0 2%;
+}
+
+.filme-principal .container img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.filme-principal h3{
+    width: 470px;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+button#assistir{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+button#assistir:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+button#mais-informacoes{
+    cursor: pointer;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+button#mais-informacoes:hover{
+    background-color: rgba(61, 60, 60,0.567);
+}
+
+button i{
+    margin-right: 5px;
+}
+
+.carrosel-principal h2{
+    width: 300px;
+    padding: 0 2%;
+    margin: 5px 0;
+}
+
+.box-filme{
+    height: 100%;
+    width: 341px;
+    display: block;
+}
+
+.owl-carousel{
+    padding: 0 2%;
+}
+
